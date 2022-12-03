@@ -1,0 +1,143 @@
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  min-width: 374px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  float: left;
+  background-color: transparent;
+  color: rgb(49, 109, 179);
+  font-size: x-small;
+  padding-left: 1vw;
+}
+
+#character-bar-container {
+  background: rgb(49, 109, 179);
+  overflow-y: hidden;
+  text-align: center;
+  height: 170px;
+  padding-top: 10px;
+}
+
+.characterInfo {
+  height: 550px;
+  padding: 0px, 0px, 30px, 30px;
+  font-size: 24px;
+  border: dotted;
+  text-align: center;
+}
+
+input[type="submit"],
+button {
+  background-color: rgb(49, 109, 179);
+  color: white;
+  font-size: 18px;
+  border-radius: 6px;
+  border: 1px;
+  padding: 0.28vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type="text"] {
+  font-size: 2vh;
+}
+
+input[type="number"] {
+  font-size: 2vh;
+}
+
+#image {
+  width: 300px;
+  height: 300px;
+}
+
+.scrolling-wrapper {
+  background: rgb(49, 109, 179);
+
+  height: 170px;
+  overflow-y: scroll;
+  white-space: nowrap;
+}
+
+.scrolling-wrapper::-webkit-scrollbar {
+  width: 0px;
+  height: 30px;
+}
+
+.scrolling-wrapper::-webkit-scrollbar-thumb:hover {
+  background: rgb(44, 99, 161);
+}
+
+.card {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 15px;
+}
+
+#character-form,
+#votes-form {
+  visibility: hidden;
+  height: 0px;
+}
+
+#character-form input[type="submit"],
+button {
+  margin-top: 15px;
+  background-color: rgb(49, 109, 179);
+  color: white;
+  font-size: 18px;
+  border-radius: 6px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#detailed-info h4 {
+  white-space: nowrap;
+}
+#image-container {
+  text-align: center;
+}
+
+#filterBtnContainer {
+  width: 100vw;
+  background: rgb(49, 109, 179);
+  float: left;
+  position: absolute;
+  margin-left: 60px;
+  margin-top: 0;
+  white-space: nowrap;
+  overflow-y: scroll;
+}
+
+.scrolling-wrapper-filter-btns::-webkit-scrollbar {
+  width: 0px;
+  height: 15px;
+}
+
+.scrolling-wrapper-filter-btns::-webkit-scrollbar-thumb:hover {
+  background: rgb(44, 99, 161);
+}
+
+#filterText {
+  float: left;
+  position: absolute;
+  padding-top: 5px;
+  font-size: 18px;
+  color: white;
+  background-color: rgb(49, 109, 179);
+  width: 60px;
+  height: 14px;
+}
+
+#filterContainer {
+  background-color: rgb(49, 109, 179);
+  width: 100vw;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+}
